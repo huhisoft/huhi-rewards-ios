@@ -1,0 +1,1569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27E1FF0822A0190000BF2949 /* HuhiRewardsCore */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 27E1FF0D22A0190000BF2949 /* Build configuration list for PBXAggregateTarget "HuhiRewardsCore" */;
+			buildPhases = (
+				27E1FF0E22A0190E00BF2949 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = HuhiRewardsCore;
+			productName = HuhiRewardsCore;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0A5AAED12285E81400F0EBC7 /* SnapKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2734046B2220B259008CABC9 /* SnapKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0A5AAEE02286015000F0EBC7 /* RewardsSummaryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5AAEDF2286015000F0EBC7 /* RewardsSummaryProtocol.swift */; };
+		0A62AB30228ABB7F00D99614 /* BATValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62AB2F228ABB7F00D99614 /* BATValue.swift */; };
+		0A62AB34228ABEC000D99614 /* BATValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A62AB33228ABEC000D99614 /* BATValueTests.swift */; };
+		0A9060222285E0BE00F58252 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9060212285E0BE00F58252 /* DateExtensions.swift */; };
+		0A9060292285E4C100F58252 /* DateExtensionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A9060232285E19E00F58252 /* DateExtensionsTests.swift */; };
+		0A91598B22B92A4900CCC119 /* FaviconData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A91598A22B92A4900CCC119 /* FaviconData.swift */; };
+		0AE5C08E22CA26B300DFF3EE /* PublisherIconCircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE5C08D22CA26B300DFF3EE /* PublisherIconCircleImageView.swift */; };
+		2704834B2220E9380051239C /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704834A2220E9380051239C /* UIImageExtensions.swift */; };
+		2704834D2220EC1D0051239C /* BundleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704834C2220EC1D0051239C /* BundleExtensions.swift */; };
+		2704834F2220EFA50051239C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2704834E2220EC720051239C /* Images.xcassets */; };
+		270483512220F1D80051239C /* SeparatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483502220F1D80051239C /* SeparatorView.swift */; };
+		270483532220F2C70051239C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483522220F2C70051239C /* Colors.swift */; };
+		270483552220F5060051239C /* SwitchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483542220F5060051239C /* SwitchRow.swift */; };
+		270483592220F99C0051239C /* BasicAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483582220F99C0051239C /* BasicAnimationController.swift */; };
+		2704835C22219E480051239C /* CreateWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704835B22219E480051239C /* CreateWalletView.swift */; };
+		270483602221AAD70051239C /* WalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2704835F2221AAD70051239C /* WalletViewController.swift */; };
+		270483632221AC260051239C /* RewardsSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483622221AC260051239C /* RewardsSummaryView.swift */; };
+		270483652221AD760051239C /* RewardsSummaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483642221AD760051239C /* RewardsSummaryButton.swift */; };
+		270483672221ADF40051239C /* RewardsSummaryRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270483662221ADF40051239C /* RewardsSummaryRowView.swift */; };
+		271E1C322268E67200E933B0 /* OptionsSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271E1C312268E67200E933B0 /* OptionsSelectionViewController.swift */; };
+		2726B58222527BC300B9EAF7 /* WalletActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2726B58122527BC300B9EAF7 /* WalletActivityView.swift */; };
+		2726B58522528EE100B9EAF7 /* AddFundsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2726B58422528EE100B9EAF7 /* AddFundsView.swift */; };
+		2726B5872252989900B9EAF7 /* TokenAddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2726B5862252989900B9EAF7 /* TokenAddressView.swift */; };
+		2729686922C16B770038CAF9 /* HuhiRewardsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2729686822C16B770038CAF9 /* HuhiRewardsExtensions.swift */; };
+		272B787222248E8800B7B81E /* TippingOverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B787122248E8800B7B81E /* TippingOverviewView.swift */; };
+		272B7874222494F600B7B81E /* TippingOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B7873222494F600B7B81E /* TippingOptionView.swift */; };
+		272B7876222498EA00B7B81E /* TippingSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B7875222498EA00B7B81E /* TippingSelectionView.swift */; };
+		2730DF8722318FBD0031845C /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730DF8622318FBD0031845C /* SettingsView.swift */; };
+		2730DF892231A65A0031845C /* HuhiRewardsToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730DF882231A65A0031845C /* HuhiRewardsToggleView.swift */; };
+		2730DF8B2231A72F0031845C /* SettingsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730DF8A2231A72F0031845C /* SettingsSectionView.swift */; };
+		2730DF8D2231C75B0031845C /* SettingsRewardsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730DF8C2231C75B0031845C /* SettingsRewardsSectionView.swift */; };
+		2730DF912232FB030031845C /* SettingsAdSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730DF902232FB030031845C /* SettingsAdSectionView.swift */; };
+		2730DF942236CA110031845C /* SettingsGrantSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2730DF932236CA110031845C /* SettingsGrantSectionView.swift */; };
+		2734045D2220B004008CABC9 /* HuhiRewardsUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2734045B2220B004008CABC9 /* HuhiRewardsUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		273404602220B004008CABC9 /* HuhiRewardsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273404592220B004008CABC9 /* HuhiRewardsUI.framework */; };
+		273404612220B004008CABC9 /* HuhiRewardsUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 273404592220B004008CABC9 /* HuhiRewardsUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		273404672220B041008CABC9 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273404662220B041008CABC9 /* Button.swift */; };
+		2734046A2220B0F6008CABC9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 275779A521E547C2005A0EAF /* UIKit.framework */; };
+		2734046D2220B259008CABC9 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734046B2220B259008CABC9 /* SnapKit.framework */; };
+		2734046E2220B259008CABC9 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734046C2220B259008CABC9 /* pop.framework */; };
+		2734046F2220B667008CABC9 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2734046B2220B259008CABC9 /* SnapKit.framework */; };
+		273404722220B8AF008CABC9 /* ActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273404712220B8AF008CABC9 /* ActionButton.swift */; };
+		273404742220BA73008CABC9 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273404732220BA73008CABC9 /* GradientView.swift */; };
+		273404762220BD60008CABC9 /* WalletHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273404752220BD60008CABC9 /* WalletHeaderView.swift */; };
+		273404792220BDC5008CABC9 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273404782220BDC5008CABC9 /* Then.swift */; };
+		27371B8022A7111300E13C00 /* DetailActionableRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27371B7F22A7111200E13C00 /* DetailActionableRow.swift */; };
+		27371B8122A7118500E13C00 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5941A4E922A4A19F00F82330 /* ArrayExtensions.swift */; };
+		27371B8222A721EC00E13C00 /* HuhiRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27700EA522A6E549009D8B6F /* HuhiRewards.framework */; };
+		27371B8322A7252200E13C00 /* HuhiRewards.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 27700EA522A6E549009D8B6F /* HuhiRewards.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		274CDD2C225D446800FA7364 /* AutoContributeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD2B225D446800FA7364 /* AutoContributeDetailsViewController.swift */; };
+		274CDD34225E6C9400FA7364 /* GrantsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD33225E6C9400FA7364 /* GrantsListViewController.swift */; };
+		274CDD36225E6DC800FA7364 /* GrantsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD35225E6DC800FA7364 /* GrantsItemView.swift */; };
+		274CDD3A225F9E7D00FA7364 /* AutoContributeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD39225F9E7D00FA7364 /* AutoContributeCell.swift */; };
+		274CDD3D225FE0F700FA7364 /* TableHeaderRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD3C225FE0F700FA7364 /* TableHeaderRowView.swift */; };
+		274CDD3F225FE4E600FA7364 /* EmptyTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD3E225FE4E600FA7364 /* EmptyTableCell.swift */; };
+		274CDD41225FE7CB00FA7364 /* BATUSDPairView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274CDD40225FE7CB00FA7364 /* BATUSDPairView.swift */; };
+		2751E5C92242F3B300CB1B6B /* DismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2751E5C82242F3B300CB1B6B /* DismissButton.swift */; };
+		2755AB6E230C9B0900F0721F /* POPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755AB6D230C9B0900F0721F /* POPExtensions.swift */; };
+		2755AB72230DC78100F0721F /* AdSwipeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755AB71230DC78100F0721F /* AdSwipeButton.swift */; };
+		2755AB74230DD47000F0721F /* AdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2755AB73230DD46F00F0721F /* AdView.swift */; };
+		2755AB7923106FE400F0721F /* pop.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2734046C2220B259008CABC9 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		275988402224494100B2E47A /* RewardsDisabledView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759883F2224494100B2E47A /* RewardsDisabledView.swift */; };
+		27598843222451FF00B2E47A /* PublisherSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27598842222451FF00B2E47A /* PublisherSummaryView.swift */; };
+		27598845222452A100B2E47A /* PublisherAttentionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27598844222452A100B2E47A /* PublisherAttentionView.swift */; };
+		27598847222453D900B2E47A /* PublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27598846222453D900B2E47A /* PublisherView.swift */; };
+		2759884A22247F4F00B2E47A /* SendTipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2759884922247F4F00B2E47A /* SendTipButton.swift */; };
+		275F1394230B258800FAC6DA /* AdsNotificationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F1393230B258800FAC6DA /* AdsNotificationHandler.swift */; };
+		275F1396230B263B00FAC6DA /* AdContentButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F1395230B263B00FAC6DA /* AdContentButton.swift */; };
+		275F1398230B2ACF00FAC6DA /* AdsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275F1397230B2ACF00FAC6DA /* AdsViewController.swift */; };
+		27623A84228DE46600DFA8F5 /* HuhiRewardsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 273404592220B004008CABC9 /* HuhiRewardsUI.framework */; };
+		27623A8B228F1E8F00DFA8F5 /* EmptyWalletSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27623A8A228F1E8F00DFA8F5 /* EmptyWalletSummaryView.swift */; };
+		2769558D2270A7CB008E5DED /* WalletNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769558C2270A7CB008E5DED /* WalletNotificationView.swift */; };
+		2769559322738942008E5DED /* WalletActionNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769559222738942008E5DED /* WalletActionNotificationView.swift */; };
+		2769559722738C26008E5DED /* WalletAlertNotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2769559622738C26008E5DED /* WalletAlertNotificationView.swift */; };
+		276A4EB722492CCB004094F4 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276A4EB622492CCB004094F4 /* LoaderView.swift */; };
+		276E7A3E22F2345100939424 /* PublisherInfoExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276E7A3D22F2345100939424 /* PublisherInfoExtensions.swift */; };
+		27700EA622A6E549009D8B6F /* HuhiRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27700EA522A6E549009D8B6F /* HuhiRewards.framework */; };
+		27700EA822A6E558009D8B6F /* HuhiRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27700EA522A6E549009D8B6F /* HuhiRewards.framework */; };
+		27700EA922A6E558009D8B6F /* HuhiRewards.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 27700EA522A6E549009D8B6F /* HuhiRewards.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2774BBBF2227587E00160619 /* InsufficientFundsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2774BBBE2227587E00160619 /* InsufficientFundsButton.swift */; };
+		277E08D022973AAF00C96CCC /* AdsUnsupportedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277E08CF22973AAF00C96CCC /* AdsUnsupportedView.swift */; };
+		27871A21227B466D003477D4 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27871A20227B466D003477D4 /* WelcomeViewController.swift */; };
+		27871A23227B4729003477D4 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27871A22227B4729003477D4 /* WelcomeView.swift */; };
+		278A6B2B225BDFCD00175678 /* RewardsPanelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B2A225BDFCD00175678 /* RewardsPanelController.swift */; };
+		278A6B2E225BE01000175678 /* PopoverNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B2D225BE01000175678 /* PopoverNavigationController.swift */; };
+		278A6B30225BE18200175678 /* RewardsUIDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B2F225BE18200175678 /* RewardsUIDelegate.swift */; };
+		278A6B32225BE21000175678 /* RewardsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B31225BE21000175678 /* RewardsDataSource.swift */; };
+		278A6B34225BE2D000175678 /* RewardsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B33225BE2D000175678 /* RewardsState.swift */; };
+		278A6B36225BE4BC00175678 /* CreateWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B35225BE4BC00175678 /* CreateWalletViewController.swift */; };
+		278A6B3A225BF49B00175678 /* AddFundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B39225BF49B00175678 /* AddFundsViewController.swift */; };
+		278A6B3C225BF91700175678 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B3B225BF91700175678 /* QRCode.swift */; };
+		278A6B3E225BFC2100175678 /* RewardsUX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B3D225BFC2100175678 /* RewardsUX.swift */; };
+		278A6B40225BFE5400175678 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B3F225BFE5400175678 /* WalletView.swift */; };
+		278A6B42225C044F00175678 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B41225C044F00175678 /* SettingsViewController.swift */; };
+		278A6B44225C04B200175678 /* SettingsUX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B43225C04B200175678 /* SettingsUX.swift */; };
+		278A6B46225C08AE00175678 /* WalletDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B45225C08AE00175678 /* WalletDetailsViewController.swift */; };
+		278A6B48225C09AE00175678 /* TippingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278A6B47225C09AE00175678 /* TippingViewController.swift */; };
+		278B55D422667F6F00BB7B89 /* AutoContributeSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B55D322667F6F00BB7B89 /* AutoContributeSettingsViewController.swift */; };
+		278B55D62266835A00BB7B89 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B55D52266835A00BB7B89 /* TableViewCell.swift */; };
+		278B55D822677AB300BB7B89 /* HuhiLedgerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B55D722677AB300BB7B89 /* HuhiLedgerExtensions.swift */; };
+		279A2079224C157700192214 /* WalletDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279A2078224C157700192214 /* WalletDetailsView.swift */; };
+		27A47073224150A300596431 /* WalletSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A47072224150A300596431 /* WalletSummaryView.swift */; };
+		27A4707622417B4F00596431 /* SettingsAutoContributeSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A4707522417B4F00596431 /* SettingsAutoContributeSectionView.swift */; };
+		27A4707822417E6200596431 /* SettingsViewDetailsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A4707722417E6200596431 /* SettingsViewDetailsButton.swift */; };
+		27A4707B22418D5900596431 /* SettingsTipsSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A4707A22418D5900596431 /* SettingsTipsSectionView.swift */; };
+		27A4707D2242EA6C00596431 /* GrabberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27A4707C2242EA6C00596431 /* GrabberView.swift */; };
+		27AFF5442229798F009320F5 /* TippingConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27AFF5432229798F009320F5 /* TippingConfirmationView.swift */; };
+		27DED66122260E7700E0F0E3 /* TippingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DED66022260E7700E0F0E3 /* TippingView.swift */; };
+		27F1737C2280B934001B5AC4 /* CreateWalletButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F1737B2280B934001B5AC4 /* CreateWalletButton.swift */; };
+		27F1955A228B492B004E92ED /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2709182B2282265C0092B1F4 /* CoreData.framework */; };
+		27F26841224AA6E600C9EE5C /* GrantClaimedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F26840224AA6E600C9EE5C /* GrantClaimedViewController.swift */; };
+		27F3E59221FB97CB009A54D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E59121FB97CB009A54D5 /* AppDelegate.swift */; };
+		27F3E59421FB97CB009A54D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E59321FB97CB009A54D5 /* ViewController.swift */; };
+		27F3E59721FB97CB009A54D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F3E59521FB97CB009A54D5 /* Main.storyboard */; };
+		27F3E59921FB97CB009A54D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F3E59821FB97CB009A54D5 /* Assets.xcassets */; };
+		27F3E59C21FB97CB009A54D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F3E59A21FB97CB009A54D5 /* LaunchScreen.storyboard */; };
+		27F3E5AC21FB9876009A54D5 /* POPExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5A421FB9876009A54D5 /* POPExtensions.swift */; };
+		27F3E5AD21FB9876009A54D5 /* Then.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5A521FB9876009A54D5 /* Then.swift */; };
+		27F3E5AE21FB9876009A54D5 /* PopoverContentComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5A621FB9876009A54D5 /* PopoverContentComponent.swift */; };
+		27F3E5AF21FB9876009A54D5 /* PopoverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5A721FB9876009A54D5 /* PopoverController.swift */; };
+		27F3E5B021FB9876009A54D5 /* PopoverContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5A821FB9876009A54D5 /* PopoverContainerView.swift */; };
+		27F3E5B121FB9876009A54D5 /* UIGestureRecognizerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5A921FB9876009A54D5 /* UIGestureRecognizerExtensions.swift */; };
+		27F3E5B221FB9876009A54D5 /* SnapKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5AA21FB9876009A54D5 /* SnapKitExtensions.swift */; };
+		27F3E5B321FB9876009A54D5 /* BasicAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F3E5AB21FB9876009A54D5 /* BasicAnimationController.swift */; };
+		27F4C1D722551D6B00CFCD67 /* UIStackViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4C1D622551D6B00CFCD67 /* UIStackViewExtensions.swift */; };
+		27F4C1D922569E2B00CFCD67 /* TipsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4C1D822569E2B00CFCD67 /* TipsDetailViewController.swift */; };
+		27F4C1DB2256A40100CFCD67 /* TipsTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4C1DA2256A40100CFCD67 /* TipsTableCell.swift */; };
+		27F4C1DD2256A67700CFCD67 /* UITableViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4C1DC2256A67700CFCD67 /* UITableViewExtensions.swift */; };
+		27F4C1E42256B2B500CFCD67 /* TipsSummaryTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4C1E32256B2B500CFCD67 /* TipsSummaryTableCell.swift */; };
+		27F4C1E62257AA1A00CFCD67 /* CurrencyContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4C1E52257AA1A00CFCD67 /* CurrencyContainerView.swift */; };
+		27F4CACF2294715100935B45 /* AdsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4CACE2294715100935B45 /* AdsDetailsViewController.swift */; };
+		27F4CAD12294773600935B45 /* LabelAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F4CAD02294773600935B45 /* LabelAccessoryView.swift */; };
+		590D148A23174F2A00CB3792 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 590D148923174F2A00CB3792 /* WebKit.framework */; };
+		59146FE322BC1A3B0085E420 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59146FE222BC1A3B0085E420 /* DataLoader.swift */; };
+		592A459C22D5FE6900E42A0E /* RewardsNotificationViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592A459B22D5FE6900E42A0E /* RewardsNotificationViewBuilder.swift */; };
+		59512897228CF3F8002D3791 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59512896228CF3F8002D3791 /* Strings.swift */; };
+		598151D322D91DB90006C2FC /* RewardsNotificationViewBuilderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 598151D222D91DB90006C2FC /* RewardsNotificationViewBuilderTests.swift */; };
+		5E1AB45E22D4EBA500CBE581 /* TippingSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1AB45D22D4EBA500CBE581 /* TippingSelectionViewController.swift */; };
+		5E2A934B22C15F05002EDFFD /* LinkLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A934A22C15F05002EDFFD /* LinkLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2734045E2220B004008CABC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FDE6C820D2AA7400F92CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273404582220B004008CABC9;
+			remoteInfo = HuhiRewardsUI;
+		};
+		27623A87228DE46C00DFA8F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FDE6C820D2AA7400F92CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 273404582220B004008CABC9;
+			remoteInfo = HuhiRewardsUI;
+		};
+		27F19555228B3D43004E92ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1FDE6C820D2AA7400F92CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F3E58E21FB97CB009A54D5;
+			remoteInfo = HuhiRewardsExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A5AAECE2285E80B00F0EBC7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2755AB7923106FE400F0721F /* pop.framework in CopyFiles */,
+				27371B8322A7252200E13C00 /* HuhiRewards.framework in CopyFiles */,
+				0A5AAED12285E81400F0EBC7 /* SnapKit.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27516FD52213966A00E04FE1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				27700EA922A6E558009D8B6F /* HuhiRewards.framework in Embed Frameworks */,
+				273404612220B004008CABC9 /* HuhiRewardsUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A5AAEDF2286015000F0EBC7 /* RewardsSummaryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsSummaryProtocol.swift; sourceTree = "<group>"; };
+		0A62AB2F228ABB7F00D99614 /* BATValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BATValue.swift; sourceTree = "<group>"; };
+		0A62AB33228ABEC000D99614 /* BATValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BATValueTests.swift; sourceTree = "<group>"; };
+		0A9060212285E0BE00F58252 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		0A9060232285E19E00F58252 /* DateExtensionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensionsTests.swift; sourceTree = "<group>"; };
+		0A91598A22B92A4900CCC119 /* FaviconData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaviconData.swift; sourceTree = "<group>"; };
+		0AE5C08D22CA26B300DFF3EE /* PublisherIconCircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherIconCircleImageView.swift; sourceTree = "<group>"; };
+		2704834A2220E9380051239C /* UIImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtensions.swift; sourceTree = "<group>"; };
+		2704834C2220EC1D0051239C /* BundleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtensions.swift; sourceTree = "<group>"; };
+		2704834E2220EC720051239C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		270483502220F1D80051239C /* SeparatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparatorView.swift; sourceTree = "<group>"; };
+		270483522220F2C70051239C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		270483542220F5060051239C /* SwitchRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchRow.swift; sourceTree = "<group>"; };
+		270483582220F99C0051239C /* BasicAnimationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicAnimationController.swift; sourceTree = "<group>"; };
+		2704835B22219E480051239C /* CreateWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletView.swift; sourceTree = "<group>"; };
+		2704835F2221AAD70051239C /* WalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletViewController.swift; sourceTree = "<group>"; };
+		270483622221AC260051239C /* RewardsSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsSummaryView.swift; sourceTree = "<group>"; };
+		270483642221AD760051239C /* RewardsSummaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsSummaryButton.swift; sourceTree = "<group>"; };
+		270483662221ADF40051239C /* RewardsSummaryRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsSummaryRowView.swift; sourceTree = "<group>"; };
+		2709182B2282265C0092B1F4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		270918302283370F0092B1F4 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		271E1C312268E67200E933B0 /* OptionsSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsSelectionViewController.swift; sourceTree = "<group>"; };
+		2726B58122527BC300B9EAF7 /* WalletActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletActivityView.swift; sourceTree = "<group>"; };
+		2726B58422528EE100B9EAF7 /* AddFundsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFundsView.swift; sourceTree = "<group>"; };
+		2726B5862252989900B9EAF7 /* TokenAddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenAddressView.swift; sourceTree = "<group>"; };
+		2729686822C16B770038CAF9 /* HuhiRewardsExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuhiRewardsExtensions.swift; sourceTree = "<group>"; };
+		272B787122248E8800B7B81E /* TippingOverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingOverviewView.swift; sourceTree = "<group>"; };
+		272B7873222494F600B7B81E /* TippingOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingOptionView.swift; sourceTree = "<group>"; };
+		272B7875222498EA00B7B81E /* TippingSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingSelectionView.swift; sourceTree = "<group>"; };
+		2730DF8622318FBD0031845C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		2730DF882231A65A0031845C /* HuhiRewardsToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuhiRewardsToggleView.swift; sourceTree = "<group>"; };
+		2730DF8A2231A72F0031845C /* SettingsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSectionView.swift; sourceTree = "<group>"; };
+		2730DF8C2231C75B0031845C /* SettingsRewardsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRewardsSectionView.swift; sourceTree = "<group>"; };
+		2730DF902232FB030031845C /* SettingsAdSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAdSectionView.swift; sourceTree = "<group>"; };
+		2730DF932236CA110031845C /* SettingsGrantSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsGrantSectionView.swift; sourceTree = "<group>"; };
+		273404592220B004008CABC9 /* HuhiRewardsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HuhiRewardsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2734045B2220B004008CABC9 /* HuhiRewardsUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HuhiRewardsUI.h; sourceTree = "<group>"; };
+		2734045C2220B004008CABC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273404662220B041008CABC9 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		2734046B2220B259008CABC9 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		2734046C2220B259008CABC9 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
+		273404712220B8AF008CABC9 /* ActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionButton.swift; sourceTree = "<group>"; };
+		273404732220BA73008CABC9 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		273404752220BD60008CABC9 /* WalletHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletHeaderView.swift; sourceTree = "<group>"; };
+		273404782220BDC5008CABC9 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		27371B7F22A7111200E13C00 /* DetailActionableRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailActionableRow.swift; sourceTree = "<group>"; };
+		274CDD2B225D446800FA7364 /* AutoContributeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoContributeDetailsViewController.swift; sourceTree = "<group>"; };
+		274CDD33225E6C9400FA7364 /* GrantsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantsListViewController.swift; sourceTree = "<group>"; };
+		274CDD35225E6DC800FA7364 /* GrantsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantsItemView.swift; sourceTree = "<group>"; };
+		274CDD39225F9E7D00FA7364 /* AutoContributeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoContributeCell.swift; sourceTree = "<group>"; };
+		274CDD3C225FE0F700FA7364 /* TableHeaderRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableHeaderRowView.swift; sourceTree = "<group>"; };
+		274CDD3E225FE4E600FA7364 /* EmptyTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyTableCell.swift; sourceTree = "<group>"; };
+		274CDD40225FE7CB00FA7364 /* BATUSDPairView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BATUSDPairView.swift; sourceTree = "<group>"; };
+		2751E5C82242F3B300CB1B6B /* DismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DismissButton.swift; sourceTree = "<group>"; };
+		2755AB6D230C9B0900F0721F /* POPExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POPExtensions.swift; sourceTree = "<group>"; };
+		2755AB71230DC78100F0721F /* AdSwipeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdSwipeButton.swift; sourceTree = "<group>"; };
+		2755AB73230DD46F00F0721F /* AdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdView.swift; sourceTree = "<group>"; };
+		275779A521E547C2005A0EAF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		275779A721E547C6005A0EAF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		275779AD21E6984D005A0EAF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2759883F2224494100B2E47A /* RewardsDisabledView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDisabledView.swift; sourceTree = "<group>"; };
+		27598842222451FF00B2E47A /* PublisherSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherSummaryView.swift; sourceTree = "<group>"; };
+		27598844222452A100B2E47A /* PublisherAttentionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherAttentionView.swift; sourceTree = "<group>"; };
+		27598846222453D900B2E47A /* PublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherView.swift; sourceTree = "<group>"; };
+		2759884922247F4F00B2E47A /* SendTipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTipButton.swift; sourceTree = "<group>"; };
+		275F1393230B258800FAC6DA /* AdsNotificationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsNotificationHandler.swift; sourceTree = "<group>"; };
+		275F1395230B263B00FAC6DA /* AdContentButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdContentButton.swift; sourceTree = "<group>"; };
+		275F1397230B2ACF00FAC6DA /* AdsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsViewController.swift; sourceTree = "<group>"; };
+		27623A8A228F1E8F00DFA8F5 /* EmptyWalletSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyWalletSummaryView.swift; sourceTree = "<group>"; };
+		2769558C2270A7CB008E5DED /* WalletNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletNotificationView.swift; sourceTree = "<group>"; };
+		2769559222738942008E5DED /* WalletActionNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletActionNotificationView.swift; sourceTree = "<group>"; };
+		2769559622738C26008E5DED /* WalletAlertNotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletAlertNotificationView.swift; sourceTree = "<group>"; };
+		276A4EB622492CCB004094F4 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		276E7A3D22F2345100939424 /* PublisherInfoExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublisherInfoExtensions.swift; sourceTree = "<group>"; };
+		27700EA522A6E549009D8B6F /* HuhiRewards.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HuhiRewards.framework; path = lib/HuhiRewards.framework; sourceTree = "<group>"; };
+		2774BBBE2227587E00160619 /* InsufficientFundsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsufficientFundsButton.swift; sourceTree = "<group>"; };
+		277E08CF22973AAF00C96CCC /* AdsUnsupportedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsUnsupportedView.swift; sourceTree = "<group>"; };
+		27871A20227B466D003477D4 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		27871A22227B4729003477D4 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		278A6B2A225BDFCD00175678 /* RewardsPanelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsPanelController.swift; sourceTree = "<group>"; };
+		278A6B2D225BE01000175678 /* PopoverNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverNavigationController.swift; sourceTree = "<group>"; };
+		278A6B2F225BE18200175678 /* RewardsUIDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsUIDelegate.swift; sourceTree = "<group>"; };
+		278A6B31225BE21000175678 /* RewardsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsDataSource.swift; sourceTree = "<group>"; };
+		278A6B33225BE2D000175678 /* RewardsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsState.swift; sourceTree = "<group>"; };
+		278A6B35225BE4BC00175678 /* CreateWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletViewController.swift; sourceTree = "<group>"; };
+		278A6B39225BF49B00175678 /* AddFundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFundsViewController.swift; sourceTree = "<group>"; };
+		278A6B3B225BF91700175678 /* QRCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		278A6B3D225BFC2100175678 /* RewardsUX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsUX.swift; sourceTree = "<group>"; };
+		278A6B3F225BFE5400175678 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		278A6B41225C044F00175678 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		278A6B43225C04B200175678 /* SettingsUX.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsUX.swift; sourceTree = "<group>"; };
+		278A6B45225C08AE00175678 /* WalletDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDetailsViewController.swift; sourceTree = "<group>"; };
+		278A6B47225C09AE00175678 /* TippingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingViewController.swift; sourceTree = "<group>"; };
+		278B55D322667F6F00BB7B89 /* AutoContributeSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoContributeSettingsViewController.swift; sourceTree = "<group>"; };
+		278B55D52266835A00BB7B89 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		278B55D722677AB300BB7B89 /* HuhiLedgerExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuhiLedgerExtensions.swift; sourceTree = "<group>"; };
+		279A2078224C157700192214 /* WalletDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletDetailsView.swift; sourceTree = "<group>"; };
+		27A47072224150A300596431 /* WalletSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletSummaryView.swift; sourceTree = "<group>"; };
+		27A4707522417B4F00596431 /* SettingsAutoContributeSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsAutoContributeSectionView.swift; sourceTree = "<group>"; };
+		27A4707722417E6200596431 /* SettingsViewDetailsButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewDetailsButton.swift; sourceTree = "<group>"; };
+		27A4707A22418D5900596431 /* SettingsTipsSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTipsSectionView.swift; sourceTree = "<group>"; };
+		27A4707C2242EA6C00596431 /* GrabberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrabberView.swift; sourceTree = "<group>"; };
+		27AFF5432229798F009320F5 /* TippingConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingConfirmationView.swift; sourceTree = "<group>"; };
+		27DED66022260E7700E0F0E3 /* TippingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingView.swift; sourceTree = "<group>"; };
+		27F1737B2280B934001B5AC4 /* CreateWalletButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWalletButton.swift; sourceTree = "<group>"; };
+		27F26840224AA6E600C9EE5C /* GrantClaimedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrantClaimedViewController.swift; sourceTree = "<group>"; };
+		27F3E58F21FB97CB009A54D5 /* HuhiRewardsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HuhiRewardsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F3E59121FB97CB009A54D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27F3E59321FB97CB009A54D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27F3E59621FB97CB009A54D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F3E59821FB97CB009A54D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27F3E59B21FB97CB009A54D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F3E59D21FB97CB009A54D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F3E5A421FB9876009A54D5 /* POPExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POPExtensions.swift; sourceTree = "<group>"; };
+		27F3E5A521FB9876009A54D5 /* Then.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Then.swift; sourceTree = "<group>"; };
+		27F3E5A621FB9876009A54D5 /* PopoverContentComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PopoverContentComponent.swift; sourceTree = "<group>"; tabWidth = 4; };
+		27F3E5A721FB9876009A54D5 /* PopoverController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PopoverController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		27F3E5A821FB9876009A54D5 /* PopoverContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = PopoverContainerView.swift; sourceTree = "<group>"; tabWidth = 4; };
+		27F3E5A921FB9876009A54D5 /* UIGestureRecognizerExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizerExtensions.swift; sourceTree = "<group>"; };
+		27F3E5AA21FB9876009A54D5 /* SnapKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKitExtensions.swift; sourceTree = "<group>"; };
+		27F3E5AB21FB9876009A54D5 /* BasicAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; path = BasicAnimationController.swift; sourceTree = "<group>"; tabWidth = 4; };
+		27F4C1D622551D6B00CFCD67 /* UIStackViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExtensions.swift; sourceTree = "<group>"; };
+		27F4C1D822569E2B00CFCD67 /* TipsDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsDetailViewController.swift; sourceTree = "<group>"; };
+		27F4C1DA2256A40100CFCD67 /* TipsTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsTableCell.swift; sourceTree = "<group>"; };
+		27F4C1DC2256A67700CFCD67 /* UITableViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewExtensions.swift; sourceTree = "<group>"; };
+		27F4C1E32256B2B500CFCD67 /* TipsSummaryTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsSummaryTableCell.swift; sourceTree = "<group>"; };
+		27F4C1E52257AA1A00CFCD67 /* CurrencyContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyContainerView.swift; sourceTree = "<group>"; };
+		27F4CACE2294715100935B45 /* AdsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsDetailsViewController.swift; sourceTree = "<group>"; };
+		27F4CAD02294773600935B45 /* LabelAccessoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAccessoryView.swift; sourceTree = "<group>"; };
+		27FD38E021E6B69700443796 /* HuhiRewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HuhiRewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27FD38E421E6B69700443796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27FD395521E9317400443796 /* Network.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Network.framework; path = System/Library/Frameworks/Network.framework; sourceTree = SDKROOT; };
+		590D148923174F2A00CB3792 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		59146FE222BC1A3B0085E420 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		592A459B22D5FE6900E42A0E /* RewardsNotificationViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsNotificationViewBuilder.swift; sourceTree = "<group>"; };
+		5941A4E922A4A19F00F82330 /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		59512896228CF3F8002D3791 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		598151D222D91DB90006C2FC /* RewardsNotificationViewBuilderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsNotificationViewBuilderTests.swift; sourceTree = "<group>"; };
+		5E1AB45D22D4EBA500CBE581 /* TippingSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippingSelectionViewController.swift; sourceTree = "<group>"; };
+		5E2A934A22C15F05002EDFFD /* LinkLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		273404562220B004008CABC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2734046A2220B0F6008CABC9 /* UIKit.framework in Frameworks */,
+				27700EA622A6E549009D8B6F /* HuhiRewards.framework in Frameworks */,
+				2734046F2220B667008CABC9 /* SnapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F3E58C21FB97CB009A54D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				590D148A23174F2A00CB3792 /* WebKit.framework in Frameworks */,
+				273404602220B004008CABC9 /* HuhiRewardsUI.framework in Frameworks */,
+				2734046D2220B259008CABC9 /* SnapKit.framework in Frameworks */,
+				27700EA822A6E558009D8B6F /* HuhiRewards.framework in Frameworks */,
+				2734046E2220B259008CABC9 /* pop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FD38DD21E6B69700443796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F1955A228B492B004E92ED /* CoreData.framework in Frameworks */,
+				27371B8222A721EC00E13C00 /* HuhiRewards.framework in Frameworks */,
+				27623A84228DE46600DFA8F5 /* HuhiRewardsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270483492220E9290051239C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2755AB6D230C9B0900F0721F /* POPExtensions.swift */,
+				2704834A2220E9380051239C /* UIImageExtensions.swift */,
+				2704834C2220EC1D0051239C /* BundleExtensions.swift */,
+				27F4C1D622551D6B00CFCD67 /* UIStackViewExtensions.swift */,
+				27F4C1DC2256A67700CFCD67 /* UITableViewExtensions.swift */,
+				278B55D722677AB300BB7B89 /* HuhiLedgerExtensions.swift */,
+				2729686822C16B770038CAF9 /* HuhiRewardsExtensions.swift */,
+				0A9060212285E0BE00F58252 /* DateExtensions.swift */,
+				5941A4E922A4A19F00F82330 /* ArrayExtensions.swift */,
+				276E7A3D22F2345100939424 /* PublisherInfoExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		2704835A22219E360051239C /* Create Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				278A6B35225BE4BC00175678 /* CreateWalletViewController.swift */,
+				2704835B22219E480051239C /* CreateWalletView.swift */,
+			);
+			path = "Create Wallet";
+			sourceTree = "<group>";
+		};
+		2704835D2221A9A50051239C /* Disabled Huhi Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				2759883F2224494100B2E47A /* RewardsDisabledView.swift */,
+			);
+			path = "Disabled Huhi Rewards";
+			sourceTree = "<group>";
+		};
+		2704835E2221AABF0051239C /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				2769558B2270A0F5008E5DED /* Notifications */,
+				2704835F2221AAD70051239C /* WalletViewController.swift */,
+				278A6B3F225BFE5400175678 /* WalletView.swift */,
+				273404752220BD60008CABC9 /* WalletHeaderView.swift */,
+				0A5AAEDF2286015000F0EBC7 /* RewardsSummaryProtocol.swift */,
+				27623A8A228F1E8F00DFA8F5 /* EmptyWalletSummaryView.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		270483612221AB960051239C /* Rewards Summary */ = {
+			isa = PBXGroup;
+			children = (
+				270483622221AC260051239C /* RewardsSummaryView.swift */,
+				270483642221AD760051239C /* RewardsSummaryButton.swift */,
+				270483662221ADF40051239C /* RewardsSummaryRowView.swift */,
+			);
+			path = "Rewards Summary";
+			sourceTree = "<group>";
+		};
+		271E1C2E2268E65B00E933B0 /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				271E1C312268E67200E933B0 /* OptionsSelectionViewController.swift */,
+			);
+			path = Options;
+			sourceTree = "<group>";
+		};
+		2726B58322528ECD00B9EAF7 /* Add Funds */ = {
+			isa = PBXGroup;
+			children = (
+				278A6B39225BF49B00175678 /* AddFundsViewController.swift */,
+				2726B58422528EE100B9EAF7 /* AddFundsView.swift */,
+				2726B5862252989900B9EAF7 /* TokenAddressView.swift */,
+			);
+			path = "Add Funds";
+			sourceTree = "<group>";
+		};
+		2730DF8522318FA90031845C /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				278A6B41225C044F00175678 /* SettingsViewController.swift */,
+				2730DF8622318FBD0031845C /* SettingsView.swift */,
+				278A6B43225C04B200175678 /* SettingsUX.swift */,
+				2730DF8A2231A72F0031845C /* SettingsSectionView.swift */,
+				27A4707722417E6200596431 /* SettingsViewDetailsButton.swift */,
+				271E1C2E2268E65B00E933B0 /* Options */,
+				2730DF8E2231C7670031845C /* Rewards Toggle */,
+				2730DF922236C9FE0031845C /* Grants */,
+				27A470712241506400596431 /* Wallet */,
+				2730DF8F2232C6E00031845C /* Ads */,
+				27A4707422417B3100596431 /* Auto-Contribute */,
+				27A4707922418D4500596431 /* Tips */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		2730DF8E2231C7670031845C /* Rewards Toggle */ = {
+			isa = PBXGroup;
+			children = (
+				2730DF8C2231C75B0031845C /* SettingsRewardsSectionView.swift */,
+				2730DF882231A65A0031845C /* HuhiRewardsToggleView.swift */,
+			);
+			path = "Rewards Toggle";
+			sourceTree = "<group>";
+		};
+		2730DF8F2232C6E00031845C /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				27F4CACB2294713C00935B45 /* Details */,
+				2730DF902232FB030031845C /* SettingsAdSectionView.swift */,
+				277E08CF22973AAF00C96CCC /* AdsUnsupportedView.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		2730DF922236C9FE0031845C /* Grants */ = {
+			isa = PBXGroup;
+			children = (
+				2730DF932236CA110031845C /* SettingsGrantSectionView.swift */,
+				27F26840224AA6E600C9EE5C /* GrantClaimedViewController.swift */,
+			);
+			path = Grants;
+			sourceTree = "<group>";
+		};
+		2734045A2220B004008CABC9 /* HuhiRewardsUI */ = {
+			isa = PBXGroup;
+			children = (
+				59512893228CF33B002D3791 /* Localized Strings */,
+				2704834E2220EC720051239C /* Images.xcassets */,
+				2734045B2220B004008CABC9 /* HuhiRewardsUI.h */,
+				2734045C2220B004008CABC9 /* Info.plist */,
+				0A62AB2F228ABB7F00D99614 /* BATValue.swift */,
+				278A6B2A225BDFCD00175678 /* RewardsPanelController.swift */,
+				278A6B31225BE21000175678 /* RewardsDataSource.swift */,
+				278A6B2F225BE18200175678 /* RewardsUIDelegate.swift */,
+				278A6B33225BE2D000175678 /* RewardsState.swift */,
+				278A6B3D225BFC2100175678 /* RewardsUX.swift */,
+				270483492220E9290051239C /* Extensions */,
+				273404772220BD63008CABC9 /* Common */,
+				2704835A22219E360051239C /* Create Wallet */,
+				27871A1D227B461B003477D4 /* Welcome */,
+				2704835D2221A9A50051239C /* Disabled Huhi Rewards */,
+				270483612221AB960051239C /* Rewards Summary */,
+				27598841222450CD00B2E47A /* Publisher */,
+				2704835E2221AABF0051239C /* Wallet */,
+				274CDD32225E6C8800FA7364 /* Grants */,
+				2726B58322528ECD00B9EAF7 /* Add Funds */,
+				27598848222479AB00B2E47A /* Tipping */,
+				2730DF8522318FA90031845C /* Settings */,
+				275F1392230B256D00FAC6DA /* Ads */,
+			);
+			path = HuhiRewardsUI;
+			sourceTree = "<group>";
+		};
+		273404772220BD63008CABC9 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				274CDD3B225FE0E700FA7364 /* Tables */,
+				278A6B2D225BE01000175678 /* PopoverNavigationController.swift */,
+				273404782220BDC5008CABC9 /* Then.swift */,
+				27A4707C2242EA6C00596431 /* GrabberView.swift */,
+				273404662220B041008CABC9 /* Button.swift */,
+				273404712220B8AF008CABC9 /* ActionButton.swift */,
+				27F1737B2280B934001B5AC4 /* CreateWalletButton.swift */,
+				2751E5C82242F3B300CB1B6B /* DismissButton.swift */,
+				273404732220BA73008CABC9 /* GradientView.swift */,
+				270483502220F1D80051239C /* SeparatorView.swift */,
+				270483522220F2C70051239C /* Colors.swift */,
+				270483542220F5060051239C /* SwitchRow.swift */,
+				270483582220F99C0051239C /* BasicAnimationController.swift */,
+				276A4EB622492CCB004094F4 /* LoaderView.swift */,
+				27F4C1E52257AA1A00CFCD67 /* CurrencyContainerView.swift */,
+				278A6B3B225BF91700175678 /* QRCode.swift */,
+				274CDD40225FE7CB00FA7364 /* BATUSDPairView.swift */,
+				27371B7F22A7111200E13C00 /* DetailActionableRow.swift */,
+				0A91598A22B92A4900CCC119 /* FaviconData.swift */,
+				5E2A934A22C15F05002EDFFD /* LinkLabel.swift */,
+				0AE5C08D22CA26B300DFF3EE /* PublisherIconCircleImageView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		274CDD2A225D445A00FA7364 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				274CDD2B225D446800FA7364 /* AutoContributeDetailsViewController.swift */,
+				274CDD39225F9E7D00FA7364 /* AutoContributeCell.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		274CDD32225E6C8800FA7364 /* Grants */ = {
+			isa = PBXGroup;
+			children = (
+				274CDD33225E6C9400FA7364 /* GrantsListViewController.swift */,
+				274CDD35225E6DC800FA7364 /* GrantsItemView.swift */,
+			);
+			path = Grants;
+			sourceTree = "<group>";
+		};
+		274CDD3B225FE0E700FA7364 /* Tables */ = {
+			isa = PBXGroup;
+			children = (
+				278B55D52266835A00BB7B89 /* TableViewCell.swift */,
+				274CDD3C225FE0F700FA7364 /* TableHeaderRowView.swift */,
+				274CDD3E225FE4E600FA7364 /* EmptyTableCell.swift */,
+				27F4CAD02294773600935B45 /* LabelAccessoryView.swift */,
+			);
+			path = Tables;
+			sourceTree = "<group>";
+		};
+		27598841222450CD00B2E47A /* Publisher */ = {
+			isa = PBXGroup;
+			children = (
+				27598846222453D900B2E47A /* PublisherView.swift */,
+				27598842222451FF00B2E47A /* PublisherSummaryView.swift */,
+				27598844222452A100B2E47A /* PublisherAttentionView.swift */,
+			);
+			path = Publisher;
+			sourceTree = "<group>";
+		};
+		27598848222479AB00B2E47A /* Tipping */ = {
+			isa = PBXGroup;
+			children = (
+				278A6B47225C09AE00175678 /* TippingViewController.swift */,
+				27DED66022260E7700E0F0E3 /* TippingView.swift */,
+				2759884922247F4F00B2E47A /* SendTipButton.swift */,
+				272B787122248E8800B7B81E /* TippingOverviewView.swift */,
+				272B7873222494F600B7B81E /* TippingOptionView.swift */,
+				272B7875222498EA00B7B81E /* TippingSelectionView.swift */,
+				2774BBBE2227587E00160619 /* InsufficientFundsButton.swift */,
+				27AFF5432229798F009320F5 /* TippingConfirmationView.swift */,
+				5E1AB45D22D4EBA500CBE581 /* TippingSelectionViewController.swift */,
+			);
+			path = Tipping;
+			sourceTree = "<group>";
+		};
+		275F1392230B256D00FAC6DA /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				275F1393230B258800FAC6DA /* AdsNotificationHandler.swift */,
+				275F1397230B2ACF00FAC6DA /* AdsViewController.swift */,
+				2755AB73230DD46F00F0721F /* AdView.swift */,
+				275F1395230B263B00FAC6DA /* AdContentButton.swift */,
+				2755AB71230DC78100F0721F /* AdSwipeButton.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		2769558B2270A0F5008E5DED /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				2769558C2270A7CB008E5DED /* WalletNotificationView.swift */,
+				2769559222738942008E5DED /* WalletActionNotificationView.swift */,
+				592A459B22D5FE6900E42A0E /* RewardsNotificationViewBuilder.swift */,
+				2769559622738C26008E5DED /* WalletAlertNotificationView.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		27871A1D227B461B003477D4 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				27871A20227B466D003477D4 /* WelcomeViewController.swift */,
+				27871A22227B4729003477D4 /* WelcomeView.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		278B55D022667F5F00BB7B89 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				278B55D322667F6F00BB7B89 /* AutoContributeSettingsViewController.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		27A470712241506400596431 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				278A6B45225C08AE00175678 /* WalletDetailsViewController.swift */,
+				27A47072224150A300596431 /* WalletSummaryView.swift */,
+				279A2078224C157700192214 /* WalletDetailsView.swift */,
+				2726B58122527BC300B9EAF7 /* WalletActivityView.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		27A4707422417B3100596431 /* Auto-Contribute */ = {
+			isa = PBXGroup;
+			children = (
+				278B55D022667F5F00BB7B89 /* Settings */,
+				274CDD2A225D445A00FA7364 /* Details */,
+				27A4707522417B4F00596431 /* SettingsAutoContributeSectionView.swift */,
+			);
+			path = "Auto-Contribute";
+			sourceTree = "<group>";
+		};
+		27A4707922418D4500596431 /* Tips */ = {
+			isa = PBXGroup;
+			children = (
+				27F4C1E12256AAF000CFCD67 /* Details */,
+				27A4707A22418D5900596431 /* SettingsTipsSectionView.swift */,
+			);
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		27F3E59021FB97CB009A54D5 /* HuhiRewardsExample */ = {
+			isa = PBXGroup;
+			children = (
+				27F3E5A321FB9876009A54D5 /* Popover */,
+				27F3E59121FB97CB009A54D5 /* AppDelegate.swift */,
+				27F3E59321FB97CB009A54D5 /* ViewController.swift */,
+				59146FE222BC1A3B0085E420 /* DataLoader.swift */,
+				27F3E59521FB97CB009A54D5 /* Main.storyboard */,
+				27F3E59821FB97CB009A54D5 /* Assets.xcassets */,
+				27F3E59A21FB97CB009A54D5 /* LaunchScreen.storyboard */,
+				27F3E59D21FB97CB009A54D5 /* Info.plist */,
+			);
+			path = HuhiRewardsExample;
+			sourceTree = "<group>";
+		};
+		27F3E5A321FB9876009A54D5 /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				27F3E5A421FB9876009A54D5 /* POPExtensions.swift */,
+				27F3E5A521FB9876009A54D5 /* Then.swift */,
+				27F3E5A621FB9876009A54D5 /* PopoverContentComponent.swift */,
+				27F3E5A721FB9876009A54D5 /* PopoverController.swift */,
+				27F3E5A821FB9876009A54D5 /* PopoverContainerView.swift */,
+				27F3E5A921FB9876009A54D5 /* UIGestureRecognizerExtensions.swift */,
+				27F3E5AA21FB9876009A54D5 /* SnapKitExtensions.swift */,
+				27F3E5AB21FB9876009A54D5 /* BasicAnimationController.swift */,
+			);
+			path = Popover;
+			sourceTree = "<group>";
+		};
+		27F4C1E12256AAF000CFCD67 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				27F4C1D822569E2B00CFCD67 /* TipsDetailViewController.swift */,
+				27F4C1E32256B2B500CFCD67 /* TipsSummaryTableCell.swift */,
+				27F4C1DA2256A40100CFCD67 /* TipsTableCell.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		27F4CACB2294713C00935B45 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				27F4CACE2294715100935B45 /* AdsDetailsViewController.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		27FD38E121E6B69700443796 /* HuhiRewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A62AB33228ABEC000D99614 /* BATValueTests.swift */,
+				0A9060232285E19E00F58252 /* DateExtensionsTests.swift */,
+				27FD38E421E6B69700443796 /* Info.plist */,
+				598151D222D91DB90006C2FC /* RewardsNotificationViewBuilderTests.swift */,
+			);
+			path = HuhiRewardsTests;
+			sourceTree = "<group>";
+		};
+		59512893228CF33B002D3791 /* Localized Strings */ = {
+			isa = PBXGroup;
+			children = (
+				59512896228CF3F8002D3791 /* Strings.swift */,
+			);
+			path = "Localized Strings";
+			sourceTree = "<group>";
+		};
+		A1FDE6C720D2AA7400F92CAF = {
+			isa = PBXGroup;
+			children = (
+				2734045A2220B004008CABC9 /* HuhiRewardsUI */,
+				27FD38E121E6B69700443796 /* HuhiRewardsTests */,
+				27F3E59021FB97CB009A54D5 /* HuhiRewardsExample */,
+				A1FDE6D220D2AA7400F92CAF /* Products */,
+				A1FDEB7720D2B2E200F92CAF /* Frameworks */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+		};
+		A1FDE6D220D2AA7400F92CAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27FD38E021E6B69700443796 /* HuhiRewardsTests.xctest */,
+				27F3E58F21FB97CB009A54D5 /* HuhiRewardsExample.app */,
+				273404592220B004008CABC9 /* HuhiRewardsUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FDEB7720D2B2E200F92CAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				590D148923174F2A00CB3792 /* WebKit.framework */,
+				27700EA522A6E549009D8B6F /* HuhiRewards.framework */,
+				270918302283370F0092B1F4 /* Security.framework */,
+				2709182B2282265C0092B1F4 /* CoreData.framework */,
+				2734046C2220B259008CABC9 /* pop.framework */,
+				2734046B2220B259008CABC9 /* SnapKit.framework */,
+				27FD395521E9317400443796 /* Network.framework */,
+				275779AD21E6984D005A0EAF /* SystemConfiguration.framework */,
+				275779A721E547C6005A0EAF /* Foundation.framework */,
+				275779A521E547C2005A0EAF /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		273404542220B004008CABC9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2734045D2220B004008CABC9 /* HuhiRewardsUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		273404582220B004008CABC9 /* HuhiRewardsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 273404642220B004008CABC9 /* Build configuration list for PBXNativeTarget "HuhiRewardsUI" */;
+			buildPhases = (
+				273404542220B004008CABC9 /* Headers */,
+				27371B7E22A710A400E13C00 /* Run SwiftLint */,
+				273404552220B004008CABC9 /* Sources */,
+				273404562220B004008CABC9 /* Frameworks */,
+				273404572220B004008CABC9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HuhiRewardsUI;
+			productName = HuhiRewardsUI;
+			productReference = 273404592220B004008CABC9 /* HuhiRewardsUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27F3E58E21FB97CB009A54D5 /* HuhiRewardsExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F3E59E21FB97CB009A54D5 /* Build configuration list for PBXNativeTarget "HuhiRewardsExample" */;
+			buildPhases = (
+				27F3E58B21FB97CB009A54D5 /* Sources */,
+				27F3E58C21FB97CB009A54D5 /* Frameworks */,
+				27F3E58D21FB97CB009A54D5 /* Resources */,
+				27F3E5B421FB9889009A54D5 /* Copy Carthage Frameworks */,
+				27516FD52213966A00E04FE1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2734045F2220B004008CABC9 /* PBXTargetDependency */,
+			);
+			name = HuhiRewardsExample;
+			productName = HuhiRewardsExample;
+			productReference = 27F3E58F21FB97CB009A54D5 /* HuhiRewardsExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27FD38DF21E6B69700443796 /* HuhiRewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27FD38E821E6B69700443796 /* Build configuration list for PBXNativeTarget "HuhiRewardsTests" */;
+			buildPhases = (
+				27FD38DC21E6B69700443796 /* Sources */,
+				27FD38DD21E6B69700443796 /* Frameworks */,
+				27FD38DE21E6B69700443796 /* Resources */,
+				0A5AAECE2285E80B00F0EBC7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27623A88228DE46C00DFA8F5 /* PBXTargetDependency */,
+				27F19556228B3D43004E92ED /* PBXTargetDependency */,
+			);
+			name = HuhiRewardsTests;
+			productName = HuhiRewardsTests;
+			productReference = 27FD38E021E6B69700443796 /* HuhiRewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1FDE6C820D2AA7400F92CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Huhi;
+				TargetAttributes = {
+					273404582220B004008CABC9 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+					};
+					27E1FF0822A0190000BF2949 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					27F3E58E21FB97CB009A54D5 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+					};
+					27FD38DF21E6B69700443796 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1030;
+					};
+				};
+			};
+			buildConfigurationList = A1FDE6CB20D2AA7400F92CAF /* Build configuration list for PBXProject "HuhiRewards" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en_US;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en_US,
+				en,
+				Base,
+			);
+			mainGroup = A1FDE6C720D2AA7400F92CAF;
+			productRefGroup = A1FDE6D220D2AA7400F92CAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27E1FF0822A0190000BF2949 /* HuhiRewardsCore */,
+				273404582220B004008CABC9 /* HuhiRewardsUI */,
+				27FD38DF21E6B69700443796 /* HuhiRewardsTests */,
+				27F3E58E21FB97CB009A54D5 /* HuhiRewardsExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		273404572220B004008CABC9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2704834F2220EFA50051239C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F3E58D21FB97CB009A54D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F3E59C21FB97CB009A54D5 /* LaunchScreen.storyboard in Resources */,
+				27F3E59921FB97CB009A54D5 /* Assets.xcassets in Resources */,
+				27F3E59721FB97CB009A54D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FD38DE21E6B69700443796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27371B7E22A710A400E13C00 /* Run SwiftLint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run SwiftLint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"$SRCROOT/scripts/swiftlint.sh\"\n";
+		};
+		27E1FF0E22A0190E00BF2949 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "sh \"$SRCROOT/HuhiRewards/lib/build_in_core.sh\" --skip-update \"$SRCROOT/../huhi-browser\"\n";
+		};
+		27F3E5B421FB9889009A54D5 /* Copy Carthage Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/pop.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
+			);
+			name = "Copy Carthage Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/pop.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		273404552220B004008CABC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27A47073224150A300596431 /* WalletSummaryView.swift in Sources */,
+				0A9060222285E0BE00F58252 /* DateExtensions.swift in Sources */,
+				278B55D822677AB300BB7B89 /* HuhiLedgerExtensions.swift in Sources */,
+				274CDD34225E6C9400FA7364 /* GrantsListViewController.swift in Sources */,
+				278B55D422667F6F00BB7B89 /* AutoContributeSettingsViewController.swift in Sources */,
+				2774BBBF2227587E00160619 /* InsufficientFundsButton.swift in Sources */,
+				0A91598B22B92A4900CCC119 /* FaviconData.swift in Sources */,
+				278A6B34225BE2D000175678 /* RewardsState.swift in Sources */,
+				270483552220F5060051239C /* SwitchRow.swift in Sources */,
+				273404672220B041008CABC9 /* Button.swift in Sources */,
+				274CDD36225E6DC800FA7364 /* GrantsItemView.swift in Sources */,
+				270483532220F2C70051239C /* Colors.swift in Sources */,
+				278A6B32225BE21000175678 /* RewardsDataSource.swift in Sources */,
+				0A62AB30228ABB7F00D99614 /* BATValue.swift in Sources */,
+				2730DF892231A65A0031845C /* HuhiRewardsToggleView.swift in Sources */,
+				2704835C22219E480051239C /* CreateWalletView.swift in Sources */,
+				27F4C1E42256B2B500CFCD67 /* TipsSummaryTableCell.swift in Sources */,
+				2704834D2220EC1D0051239C /* BundleExtensions.swift in Sources */,
+				272B7876222498EA00B7B81E /* TippingSelectionView.swift in Sources */,
+				275988402224494100B2E47A /* RewardsDisabledView.swift in Sources */,
+				278A6B3C225BF91700175678 /* QRCode.swift in Sources */,
+				274CDD2C225D446800FA7364 /* AutoContributeDetailsViewController.swift in Sources */,
+				2730DF8B2231A72F0031845C /* SettingsSectionView.swift in Sources */,
+				59512897228CF3F8002D3791 /* Strings.swift in Sources */,
+				275F1394230B258800FAC6DA /* AdsNotificationHandler.swift in Sources */,
+				592A459C22D5FE6900E42A0E /* RewardsNotificationViewBuilder.swift in Sources */,
+				5E1AB45E22D4EBA500CBE581 /* TippingSelectionViewController.swift in Sources */,
+				27F4C1D922569E2B00CFCD67 /* TipsDetailViewController.swift in Sources */,
+				27371B8022A7111300E13C00 /* DetailActionableRow.swift in Sources */,
+				27A4707D2242EA6C00596431 /* GrabberView.swift in Sources */,
+				278A6B30225BE18200175678 /* RewardsUIDelegate.swift in Sources */,
+				27F4C1DB2256A40100CFCD67 /* TipsTableCell.swift in Sources */,
+				0A5AAEE02286015000F0EBC7 /* RewardsSummaryProtocol.swift in Sources */,
+				27598845222452A100B2E47A /* PublisherAttentionView.swift in Sources */,
+				274CDD3A225F9E7D00FA7364 /* AutoContributeCell.swift in Sources */,
+				279A2079224C157700192214 /* WalletDetailsView.swift in Sources */,
+				27DED66122260E7700E0F0E3 /* TippingView.swift in Sources */,
+				2769558D2270A7CB008E5DED /* WalletNotificationView.swift in Sources */,
+				27F4C1D722551D6B00CFCD67 /* UIStackViewExtensions.swift in Sources */,
+				2769559722738C26008E5DED /* WalletAlertNotificationView.swift in Sources */,
+				27871A23227B4729003477D4 /* WelcomeView.swift in Sources */,
+				278A6B42225C044F00175678 /* SettingsViewController.swift in Sources */,
+				272B787222248E8800B7B81E /* TippingOverviewView.swift in Sources */,
+				274CDD41225FE7CB00FA7364 /* BATUSDPairView.swift in Sources */,
+				27F1737C2280B934001B5AC4 /* CreateWalletButton.swift in Sources */,
+				2729686922C16B770038CAF9 /* HuhiRewardsExtensions.swift in Sources */,
+				270483512220F1D80051239C /* SeparatorView.swift in Sources */,
+				27A4707622417B4F00596431 /* SettingsAutoContributeSectionView.swift in Sources */,
+				270483632221AC260051239C /* RewardsSummaryView.swift in Sources */,
+				2769559322738942008E5DED /* WalletActionNotificationView.swift in Sources */,
+				276A4EB722492CCB004094F4 /* LoaderView.swift in Sources */,
+				2759884A22247F4F00B2E47A /* SendTipButton.swift in Sources */,
+				27A4707822417E6200596431 /* SettingsViewDetailsButton.swift in Sources */,
+				27F4C1DD2256A67700CFCD67 /* UITableViewExtensions.swift in Sources */,
+				274CDD3F225FE4E600FA7364 /* EmptyTableCell.swift in Sources */,
+				277E08D022973AAF00C96CCC /* AdsUnsupportedView.swift in Sources */,
+				270483652221AD760051239C /* RewardsSummaryButton.swift in Sources */,
+				274CDD3D225FE0F700FA7364 /* TableHeaderRowView.swift in Sources */,
+				273404722220B8AF008CABC9 /* ActionButton.swift in Sources */,
+				270483672221ADF40051239C /* RewardsSummaryRowView.swift in Sources */,
+				2730DF912232FB030031845C /* SettingsAdSectionView.swift in Sources */,
+				2730DF8722318FBD0031845C /* SettingsView.swift in Sources */,
+				278A6B2B225BDFCD00175678 /* RewardsPanelController.swift in Sources */,
+				278A6B44225C04B200175678 /* SettingsUX.swift in Sources */,
+				270483592220F99C0051239C /* BasicAnimationController.swift in Sources */,
+				278A6B3A225BF49B00175678 /* AddFundsViewController.swift in Sources */,
+				27871A21227B466D003477D4 /* WelcomeViewController.swift in Sources */,
+				275F1398230B2ACF00FAC6DA /* AdsViewController.swift in Sources */,
+				27F4CAD12294773600935B45 /* LabelAccessoryView.swift in Sources */,
+				2726B5872252989900B9EAF7 /* TokenAddressView.swift in Sources */,
+				27AFF5442229798F009320F5 /* TippingConfirmationView.swift in Sources */,
+				278A6B48225C09AE00175678 /* TippingViewController.swift in Sources */,
+				271E1C322268E67200E933B0 /* OptionsSelectionViewController.swift in Sources */,
+				5E2A934B22C15F05002EDFFD /* LinkLabel.swift in Sources */,
+				2730DF942236CA110031845C /* SettingsGrantSectionView.swift in Sources */,
+				27598847222453D900B2E47A /* PublisherView.swift in Sources */,
+				27623A8B228F1E8F00DFA8F5 /* EmptyWalletSummaryView.swift in Sources */,
+				2755AB74230DD47000F0721F /* AdView.swift in Sources */,
+				272B7874222494F600B7B81E /* TippingOptionView.swift in Sources */,
+				2755AB72230DC78100F0721F /* AdSwipeButton.swift in Sources */,
+				270483602221AAD70051239C /* WalletViewController.swift in Sources */,
+				278A6B3E225BFC2100175678 /* RewardsUX.swift in Sources */,
+				278A6B40225BFE5400175678 /* WalletView.swift in Sources */,
+				278A6B2E225BE01000175678 /* PopoverNavigationController.swift in Sources */,
+				275F1396230B263B00FAC6DA /* AdContentButton.swift in Sources */,
+				278B55D62266835A00BB7B89 /* TableViewCell.swift in Sources */,
+				27A4707B22418D5900596431 /* SettingsTipsSectionView.swift in Sources */,
+				27F4C1E62257AA1A00CFCD67 /* CurrencyContainerView.swift in Sources */,
+				2730DF8D2231C75B0031845C /* SettingsRewardsSectionView.swift in Sources */,
+				2726B58222527BC300B9EAF7 /* WalletActivityView.swift in Sources */,
+				27371B8122A7118500E13C00 /* ArrayExtensions.swift in Sources */,
+				0AE5C08E22CA26B300DFF3EE /* PublisherIconCircleImageView.swift in Sources */,
+				273404742220BA73008CABC9 /* GradientView.swift in Sources */,
+				27F4CACF2294715100935B45 /* AdsDetailsViewController.swift in Sources */,
+				278A6B46225C08AE00175678 /* WalletDetailsViewController.swift in Sources */,
+				2704834B2220E9380051239C /* UIImageExtensions.swift in Sources */,
+				276E7A3E22F2345100939424 /* PublisherInfoExtensions.swift in Sources */,
+				2726B58522528EE100B9EAF7 /* AddFundsView.swift in Sources */,
+				278A6B36225BE4BC00175678 /* CreateWalletViewController.swift in Sources */,
+				27598843222451FF00B2E47A /* PublisherSummaryView.swift in Sources */,
+				273404792220BDC5008CABC9 /* Then.swift in Sources */,
+				2755AB6E230C9B0900F0721F /* POPExtensions.swift in Sources */,
+				2751E5C92242F3B300CB1B6B /* DismissButton.swift in Sources */,
+				27F26841224AA6E600C9EE5C /* GrantClaimedViewController.swift in Sources */,
+				273404762220BD60008CABC9 /* WalletHeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F3E58B21FB97CB009A54D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59146FE322BC1A3B0085E420 /* DataLoader.swift in Sources */,
+				27F3E5AD21FB9876009A54D5 /* Then.swift in Sources */,
+				27F3E5AF21FB9876009A54D5 /* PopoverController.swift in Sources */,
+				27F3E5B021FB9876009A54D5 /* PopoverContainerView.swift in Sources */,
+				27F3E5B121FB9876009A54D5 /* UIGestureRecognizerExtensions.swift in Sources */,
+				27F3E59421FB97CB009A54D5 /* ViewController.swift in Sources */,
+				27F3E59221FB97CB009A54D5 /* AppDelegate.swift in Sources */,
+				27F3E5AC21FB9876009A54D5 /* POPExtensions.swift in Sources */,
+				27F3E5AE21FB9876009A54D5 /* PopoverContentComponent.swift in Sources */,
+				27F3E5B221FB9876009A54D5 /* SnapKitExtensions.swift in Sources */,
+				27F3E5B321FB9876009A54D5 /* BasicAnimationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27FD38DC21E6B69700443796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A9060292285E4C100F58252 /* DateExtensionsTests.swift in Sources */,
+				598151D322D91DB90006C2FC /* RewardsNotificationViewBuilderTests.swift in Sources */,
+				0A62AB34228ABEC000D99614 /* BATValueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2734045F2220B004008CABC9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273404582220B004008CABC9 /* HuhiRewardsUI */;
+			targetProxy = 2734045E2220B004008CABC9 /* PBXContainerItemProxy */;
+		};
+		27623A88228DE46C00DFA8F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 273404582220B004008CABC9 /* HuhiRewardsUI */;
+			targetProxy = 27623A87228DE46C00DFA8F5 /* PBXContainerItemProxy */;
+		};
+		27F19556228B3D43004E92ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F3E58E21FB97CB009A54D5 /* HuhiRewardsExample */;
+			targetProxy = 27F19555228B3D43004E92ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27F3E59521FB97CB009A54D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F3E59621FB97CB009A54D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F3E59A21FB97CB009A54D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F3E59B21FB97CB009A54D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		273404622220B004008CABC9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = HuhiRewardsUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huhi.ios.rewards-ui";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		273404632220B004008CABC9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = HuhiRewardsUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.huhi.ios.rewards-ui";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27E1FF0922A0190000BF2949 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27E1FF0A22A0190000BF2949 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		27F3E59F21FB97CB009A54D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = HuhiRewardsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhi.HuhiRewardsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27F3E5A021FB97CB009A54D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = HuhiRewardsExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhi.HuhiRewardsExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27FD38E921E6B69700443796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = HuhiRewardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhi.HuhiRewardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27FD38EA21E6B69700443796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
+				INFOPLIST_FILE = HuhiRewardsTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huhi.HuhiRewardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1FDE6D720D2AA7400F92CAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1FDE6D820D2AA7400F92CAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		273404642220B004008CABC9 /* Build configuration list for PBXNativeTarget "HuhiRewardsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				273404622220B004008CABC9 /* Debug */,
+				273404632220B004008CABC9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27E1FF0D22A0190000BF2949 /* Build configuration list for PBXAggregateTarget "HuhiRewardsCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27E1FF0922A0190000BF2949 /* Debug */,
+				27E1FF0A22A0190000BF2949 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F3E59E21FB97CB009A54D5 /* Build configuration list for PBXNativeTarget "HuhiRewardsExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F3E59F21FB97CB009A54D5 /* Debug */,
+				27F3E5A021FB97CB009A54D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27FD38E821E6B69700443796 /* Build configuration list for PBXNativeTarget "HuhiRewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27FD38E921E6B69700443796 /* Debug */,
+				27FD38EA21E6B69700443796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1FDE6CB20D2AA7400F92CAF /* Build configuration list for PBXProject "HuhiRewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1FDE6D720D2AA7400F92CAF /* Debug */,
+				A1FDE6D820D2AA7400F92CAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1FDE6C820D2AA7400F92CAF /* Project object */;
+}

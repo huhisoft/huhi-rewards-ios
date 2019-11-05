@@ -1,0 +1,6 @@
+framework module HuhiRewards {
+  umbrella header "HuhiRewards.h"
+
+  export *
+  module * { export * }
+}
